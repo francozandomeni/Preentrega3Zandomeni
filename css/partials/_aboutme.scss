@@ -1,0 +1,81 @@
+.aboutme {    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h1 {
+        width: 100%;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+    }
+    
+    p {  
+        color: white;
+        font-size: 27px;
+        margin: 0px 130px -10px 130px;
+        text-align: center;
+        padding-bottom: 0px;
+
+        strong {
+            background-color: black;
+        }
+    
+    }
+    .caption { 
+        color: white;
+        text-align: center;
+    }
+
+    .player {
+        width: 400px;
+        object-fit: cover;  
+    }    
+}
+
+.teams {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    h2 {  
+         width: 100%;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+
+        strong {
+            background-color: black;
+        }
+    
+    }
+
+    li {
+        color: white;
+        list-style: none;
+        font-size: 27px;
+        margin: 30px 130px 0px 130px;
+        text-align: center; 
+    }
+
+    .imagenesadm {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; 
+
+        .player {
+            width: 400px;
+            object-fit: cover;  
+        }
+    }
+
+    
+
+    
+}
+
+

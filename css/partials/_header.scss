@@ -1,0 +1,21 @@
+.navbar{
+    background-color: $maincolor;
+
+    .navbar-brand{
+        font-family: $fontSatisfy;
+        transition: transform .5s;
+        
+    }
+    
+    .navbar-brand:hover {
+        transform: scale(1.1);
+    }
+    
+    .nav-item {
+        transition: transform .5s ;
+    }
+    
+    .nav-item:hover {
+        transform: scale(1.1) translateY(-5px);
+    }
+}

@@ -1,0 +1,122 @@
+.acordeon {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+    h4 {
+        font-size: 50px;
+    }
+
+    .accordion {
+        --bs-accordion-btn-focus-border-color: $secondarycolor;
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(179, 182, 185, 0.25);
+        --bs-accordion-active-color: grey;
+        --bs-accordion-active-bg: $footercolor1;
+        --bs-accordion-color: white;
+        --bs-accordion-btn-color: $secondarycolor;
+        --bs-accordion-active-color: $secondarycolor;
+
+        .accordion-body {
+            background-color: $secondarycolor;
+        }
+
+        .accordion-button.collapsed::after {
+            color: black;
+        }
+        
+        button.accordion-button::after {
+            color: black;
+        }
+
+        .accordion-button {
+            background-color: white;
+            color: $secondarycolor;
+
+                &:not(.collapsed) {
+                    background-color: $footercolor1;
+                    color: $secondarycolor;
+                }
+                &:focus {
+                    border-color: rgb(118, 116, 116);
+                    color: $secondarycolor;
+                }
+        }
+    }
+}
+
+.flex__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-width: 200px;
+    
+
+    h3 {
+        color: white;
+        font-size: 50px;
+    }
+
+    .form {
+        min-width: 200px;
+        text-align: center;
+
+        .form__input {
+            width: 400px;
+            padding: 10px;
+            margin: 12px;
+            border: none;
+            border-bottom: 3px solid $secondarycolor;
+            font-family: 'Bebas Neue';
+            font-size: 16px;
+
+                &:focus{
+                    background: rgb(212, 211, 211);
+                    outline: none;
+                    border-bottom: 3px solid $inputcolor1;
+                
+                }
+
+                &[type="submit"] {
+                    background-color: $secondarycolor;
+                    color: white;
+                    border-bottom: none;
+                    
+                }
+
+                &[type="submit"]:hover {
+                    background-color: $inputcolor1;
+                
+                }
+                &[type="submit"]:focus {
+                    background-color: $inputcolor2
+                
+                }
+                &[type="submit"]:active {
+                    background-color: $inputcolor2;
+                
+                }
+
+                .form textarea {
+                    min-width: 200px;
+                    width: 400px;
+                    height: 200px;
+                    resize: none;
+                
+                }
+        }
+    }
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+    
+    
+
+

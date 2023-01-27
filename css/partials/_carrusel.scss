@@ -1,0 +1,19 @@
+#demo {
+    background-color: black;
+    display: flex;   
+}
+
+.carousel-inner {
+    width: 650px;
+    height: 650px;
+    object-fit: cover;
+    align-items: center;    
+}
+
+.carousel {
+
+    .img {
+        margin: auto;
+    }
+    
+}

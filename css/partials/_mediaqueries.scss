@@ -1,0 +1,146 @@
+@media screen and (max-width: 768px) {
+    /* NOTICIAS PAGINA DE INICIO */
+    .news h2 {    
+        font-size: 35px;
+    }
+    
+    .news__item {
+        width: 200px;
+        margin: 10px; 
+
+        .img__news{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+/* FIN NOTICIAS PAGINA DE INICIO */
+
+/* PAGINA DE ENTREVISTAS  */
+
+.interviews__item {
+    width: 200px;
+    margin: 10px;
+
+    .img__interviews {
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+/* ACERCA DE MI */
+
+.aboutme {
+        p {  
+            font-size: 21px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 40px;
+        }
+}
+
+.teams {
+    li {
+        font-size: 21px;
+        margin: auto;
+    }
+    h2 {
+        font-size: 40px
+    }
+}
+
+.player {
+    width: 350px;
+    object-fit: cover;  
+    }
+
+}
+
+/* FIN ACERCA DE MI  */
+
+
+@media screen and (max-width: 480px) {
+
+    .all {
+        background-image: url(../Imagenes/basketball-gb18a82634_1920.jpg);
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+     
+    }
+
+/* NOTICIAS PAGINA DE INICIO */
+.news h2 {    
+    font-size: 30px;
+}
+
+.news__item {
+    width: 170px;
+    margin: auto;
+    font-size: 20px;
+    
+    
+}
+
+.img__news{
+    width: 100%;
+    object-fit: cover;
+}
+
+.h1__interview {
+    font-size: 30px;
+
+}
+/* FIN NOTICIAS PAGINA DE INICIO */
+
+/* PAGINA DE ENTREVISTAS  */
+.interviews__item {
+    width: 170px;
+    margin: auto;
+    font-size: 20px;
+
+    .img__interviews {
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+
+
+
+/* ACERCA DE MI */
+
+    .aboutme {
+            p {  
+            font-size: 21px;
+            margin: auto;}
+
+            h1 {
+                font-size: 30px;
+            }
+    }
+
+    .teams {
+            li {
+            font-size: 21px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 30px
+            
+        }
+    }
+
+    .player {
+        width: 350px;
+        object-fit: cover;  
+        }
+
+
+/* FIN ACERCA DE MI  */
+
+}

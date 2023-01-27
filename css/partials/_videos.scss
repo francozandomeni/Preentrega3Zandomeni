@@ -1,0 +1,25 @@
+.videos {
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+        color: white;
+    }
+
+    iframe {
+        margin: 30px;
+    }
+
+    video {
+        margin: 30px;
+        height: 320px;
+        width: 560px;
+    }
+}

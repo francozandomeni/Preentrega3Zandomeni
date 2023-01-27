@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: chocolate;
+  color: black;
+}
+*::selection {
+  background-color: chocolate;
+  color: black;
+}
+
+.all {
+  font-family: "Bebas Neue", cursive;
+  background-image: url(../Imagenes/basketball.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: rgb(231, 231, 181);
+}
+.navbar .navbar-brand {
+  font-family: "Satisfy", cursive;
+  transition: transform 0.5s;
+}
+.navbar .navbar-brand:hover {
+  transform: scale(1.1);
+}
+.navbar .nav-item {
+  transition: transform 0.5s;
+}
+.navbar .nav-item:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+
+.redes {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+}
+.redes a {
+  color: white;
+}
+.redes a:hover {
+  color: rgb(191, 189, 189);
+}
+.redes a:active {
+  color: rgb(191, 189, 189);
+}
+.redes a:focus {
+  color: rgb(191, 189, 189);
+}
+.redes i {
+  font-size: 30px;
+  letter-spacing: 15px;
+  padding-top: 10px;
+}
+
+#demo {
+  background-color: black;
+  display: flex;
+}
+
+.carousel-inner {
+  width: 650px;
+  height: 650px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-items: center;
+}
+
+.carousel .img {
+  margin: auto;
+}
+
+.news {
+  width: 100%;
+  display: flex;
+  padding-left: 65px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.news h2 {
+  width: 100%;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.news a:visited {
+  color: white;
+}
+.news .news__item {
+  width: 250px;
+  margin: 5px 30px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  transition: transform 0.5s;
+}
+.news .news__item :hover {
+  transform: scale(1.1) translateY(-30px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.news .img__news {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.videos {
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.videos h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.videos iframe {
+  margin: 30px;
+}
+.videos video {
+  margin: 30px;
+  height: 320px;
+  width: 560px;
+}
+
+.interviews {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.interviews h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.interviews .interviews__item {
+  width: 250px;
+  margin: 15px 35px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  transition: transform 0.5s;
+  color: white;
+}
+.interviews .interviews__item .img__interviews {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.interviews:hover {
+  transform: scale(1.1) translateY(-30px);
+}
+.interviews a:visited {
+  color: white;
+}
+
+.aboutme {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.aboutme h1 {
+  width: 100%;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.aboutme p {
+  color: white;
+  font-size: 27px;
+  margin: 0px 130px -10px 130px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.aboutme p strong {
+  background-color: black;
+}
+.aboutme .caption {
+  color: white;
+  text-align: center;
+}
+.aboutme .player {
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.teams {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.teams h2 {
+  width: 100%;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.teams h2 strong {
+  background-color: black;
+}
+.teams li {
+  color: white;
+  list-style: none;
+  font-size: 27px;
+  margin: 30px 130px 0px 130px;
+  text-align: center;
+}
+.teams .imagenesadm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.teams .imagenesadm .player {
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.acordeon {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.acordeon h4 {
+  font-size: 50px;
+}
+.acordeon .accordion {
+  --bs-accordion-btn-focus-border-color: $secondarycolor;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(179, 182, 185, 0.25);
+  --bs-accordion-active-color: grey;
+  --bs-accordion-active-bg: $footercolor1;
+  --bs-accordion-color: white;
+  --bs-accordion-btn-color: $secondarycolor;
+  --bs-accordion-active-color: $secondarycolor;
+}
+.acordeon .accordion .accordion-body {
+  background-color: chocolate;
+}
+.acordeon .accordion .accordion-button.collapsed::after {
+  color: black;
+}
+.acordeon .accordion button.accordion-button::after {
+  color: black;
+}
+.acordeon .accordion .accordion-button {
+  background-color: white;
+  color: chocolate;
+}
+.acordeon .accordion .accordion-button:not(.collapsed) {
+  background-color: rgb(191, 189, 189);
+  color: chocolate;
+}
+.acordeon .accordion .accordion-button:focus {
+  border-color: rgb(118, 116, 116);
+  color: chocolate;
+}
+
+.flex__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+}
+.flex__container h3 {
+  color: white;
+  font-size: 50px;
+}
+.flex__container .form {
+  min-width: 200px;
+  text-align: center;
+}
+.flex__container .form .form__input {
+  width: 400px;
+  padding: 10px;
+  margin: 12px;
+  border: none;
+  border-bottom: 3px solid chocolate;
+  font-family: "Bebas Neue";
+  font-size: 16px;
+}
+.flex__container .form .form__input:focus {
+  background: rgb(212, 211, 211);
+  outline: none;
+  border-bottom: 3px solid rgb(156, 79, 24);
+}
+.flex__container .form .form__input[type=submit] {
+  background-color: chocolate;
+  color: white;
+  border-bottom: none;
+}
+.flex__container .form .form__input[type=submit]:hover {
+  background-color: rgb(156, 79, 24);
+}
+.flex__container .form .form__input[type=submit]:focus {
+  background-color: rgb(112, 55, 14);
+}
+.flex__container .form .form__input[type=submit]:active {
+  background-color: rgb(112, 55, 14);
+}
+.flex__container .form .form__input .form textarea {
+  min-width: 200px;
+  width: 400px;
+  height: 200px;
+  resize: none;
+}
+
+h3 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  /* NOTICIAS PAGINA DE INICIO */
+  .news h2 {
+    font-size: 35px;
+  }
+  .news__item {
+    width: 200px;
+    margin: 10px;
+  }
+  .news__item .img__news {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* FIN NOTICIAS PAGINA DE INICIO */
+  /* PAGINA DE ENTREVISTAS  */
+  .interviews__item {
+    width: 200px;
+    margin: 10px;
+  }
+  .interviews__item .img__interviews {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* ACERCA DE MI */
+  .aboutme p {
+    font-size: 21px;
+    margin: auto;
+  }
+  .aboutme h1 {
+    font-size: 40px;
+  }
+  .teams li {
+    font-size: 21px;
+    margin: auto;
+  }
+  .teams h2 {
+    font-size: 40px;
+  }
+  .player {
+    width: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/* FIN ACERCA DE MI  */
+@media screen and (max-width: 480px) {
+  .all {
+    background-image: url(../Imagenes/basketball-gb18a82634_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* NOTICIAS PAGINA DE INICIO */
+  .news h2 {
+    font-size: 30px;
+  }
+  .news__item {
+    width: 170px;
+    margin: auto;
+    font-size: 20px;
+  }
+  .img__news {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .h1__interview {
+    font-size: 30px;
+  }
+  /* FIN NOTICIAS PAGINA DE INICIO */
+  /* PAGINA DE ENTREVISTAS  */
+  .interviews__item {
+    width: 170px;
+    margin: auto;
+    font-size: 20px;
+  }
+  .interviews__item .img__interviews {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* ACERCA DE MI */
+  .aboutme p {
+    font-size: 21px;
+    margin: auto;
+  }
+  .aboutme h1 {
+    font-size: 30px;
+  }
+  .teams li {
+    font-size: 21px;
+    margin: auto;
+  }
+  .teams h2 {
+    font-size: 30px;
+  }
+  .player {
+    width: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* FIN ACERCA DE MI  */
+}/*# sourceMappingURL=estilos.css.map */
